@@ -2,7 +2,7 @@
 <html lang="en-ca">
   <head>
     <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
+    <title>Assignment 01</title>
 
     <!-- Set the charset we're using to UTF-8 -->
     <meta charset="UTF-8" />
@@ -56,74 +56,154 @@
     -->
 
    <header>
-    <h2>Assignment 01</h2>
-    <p>...</p>
+    <h2>Pokemon Popularity Poll 2020</h2>
+    <img src="./Images/PokemonWallpaper.png"/>
+    <h3>Article Menu</h3>
     <nav>
       <ul>
-        <li><a href="...">...</a></li>
-        <li><a href="...">...</a></li>
-        <li><a href="...">...</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>  
    </header>
    
    <main>
-    <section>
-      <h1>Assingment 01</h1>
-      <p>...</p>
-    </section>
+      <h1 >Who is the Most Popular Pokemon?</h1>
+      <section>
+        <h2>Table of Contents</h2>
+        <ul>
+          <li><a href="#intro">A Quick Introduction</a></li>
+          <li><a href="#table">Google's Pokemon of the Year</a></li>
+          <li><a href="#form">It's Your Time to Vote!</a></li>
+        </ul>
+      </section>
   
     <section>
-      <p>...</p>
+      <h2 id="intro">A Quick Introduction</h2>
+
+      <p>Everyone knows about Pokemon. It's the most popular media franchise of all time. With over 800+ different Pokemon, most people are bound to have a favourite one if they know anything about Pokmon.</p>
+    </section>
+    
+    <section>
+      <h2 id="table">Google's Pokemon of the Year</h2>
+      <img src="./Images/GooglePokemonoftheYear.png"
+
+      <p>Back in 2020, Google and the Pokemon Company worked together to hold the biggest Pokemon popularity poll ever. Let's take a look at the top 10 most popular Pokemon according to the fans.</p>
+    </section>
+
+    <section>
+      <h3>Top 10 Most Popular Pokemon</h3>
       <table>
-        <caption>...</caption>
+      
         <thead>
           <tr>
-            <th></th>
+            <th>Rank </th>
+            <th>Pokemon</th>
+            <th># of Votes</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-
+            <td>#1</td>
+            <td>Greninja</td>
+            <td>140559</td>
           </tr>
           <tr>
-
+            <td>#2</td>
+            <td>Lucario</td>
+            <td>102259</td>
+          </tr>
+          <tr>
+            <td>#3</td>
+            <td>Mimikyu</td>
+            <td>99077</td>
+          </tr>
+          <tr>
+            <td>#4</td>
+            <td>Charizard</td>
+            <td>93968</td>
+          </tr>
+          <tr>
+            <td>#5</td>
+            <td>Umbreon</td>
+            <td>67062</td>
+          </tr>
+          <tr>
+            <td>#6</td>
+            <td>Sylveon</td>
+            <td>66029</td>
+          </tr>
+          <tr>
+            <td>#7</td>
+            <td>Garchomp</td>
+            <td>61877</td>
+          </tr>
+          <tr>
+            <td>#8</td>
+            <td>Rayquaza</td>
+            <td>60939</td>
+          </tr>
+          <tr>
+            <td>#9</td>
+            <td>Gardevoir</td>
+            <td>60596</td>
+          </tr>
+          <tr>
+            <td>#10</td>
+            <td>Gengar</td>
+            <td>60214</td>
           </tr>
         </tbody>
-
       </table>
     </section>
 
     <section>
-      <p>...</p>
-      <form action="">
+      <h2 id="form">It's Your Time to Vote!</h2>
+      <p>It's not too late to give us your thoughts!</p>
+      <form>
         <fieldset>
           <legend>Your Personal Information</legend>
-          <label for="name">Name</label>
+          <label for="name">Name:</label>
           <input autocomplete="given-name" required minlength="2" maxlength="20" id="name" type="text" placeholder="John Doe"/>
 
-          <label for="email">Email</label>
+          <label for="email">Email:</label>
           <input required type="email" placeholder="johndoe@email.com" />
         </fieldset>
         <fieldset>
           <legend>We Want to Hear Your Opinion!</legend>
-          <label for="message">Who is your favourite Pokemon?</label>
-          <textarea id="message"></textarea>
-          <button type="submit" value="Click here"/>
+          <label for="Pokemon">Who is your favourite pokemon from the top 10?:</label>
+          <select id="Pokemon" name="..." required>
+            <option value="">--Please choose an option</option>
+            <option value="Pokemon1">Greninja</option>
+            <option value="Pokemon2">Lucario</option>
+            <option value="Pokemon3">Mimikyu</option>
+            <option value="Pokemon4">Charizard</option>
+            <option value="Pokemon5">Umbreon</option>
+            <option value="Pokemon6">Sylveon</option>
+            <option value="Pokemon7">Garchomp</option>
+            <option value="Pokemon8">Rayquaza</option>
+            <option value="Pokemon9">Gardevoir</option>
+            <option value="Pokemon10">Gengar</option>
+          </select>
+
+          <label for="message">Who is your favourite Pokemon?:</label>
+          <input type="text" id="message" required minlength="2" maxlength="20" placeholder="Pikahcu"/>
+          <input type="submit" value="Click here"/>
         </fieldset>
 
 
       </form>
     </section>
-
    </main>
 
    <footer>
+    <h2>Article Footer</h2>
     <nav>
       <ul>
-        <li><a href="...">..</a></li>
-        <li><a href="...">...</a></li>
-        <li><a href="...">...</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
    </footer>
